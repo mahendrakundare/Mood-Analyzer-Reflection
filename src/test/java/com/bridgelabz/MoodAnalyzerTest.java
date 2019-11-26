@@ -11,20 +11,4 @@ public class MoodAnalyzerTest {
         String mood = analyzer.analyzeMood();
         Assert.assertEquals("SAD",mood);
     }
-
-    //Repeated TC1.1
-    @Test
-    public void givenMessageToConstructor_WhenSad_ShouldReturnSad() {
-        MoodAnalyzer analyzer = new MoodAnalyzer("I am in sad Mood");
-        String mood = analyzer.analyzeMood();
-        Assert.assertEquals("SAD",mood);
-    }
-
-    //Repeadted TC1.2
-    @Test
-    public void givenMessageToConstructor_WhenHappy_ShouldReturnHappy() {
-        MoodAnalyzer analyzer = new MoodAnalyzer("I am in happy Mood");
-        String mood = analyzer.analyzeMood();
-        Assert.assertEquals("SAD",mood);
-    }
 }
