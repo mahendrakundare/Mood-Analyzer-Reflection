@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbfbb7d4-f1c7-481b-be4b-ecf3d5e59297" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/MoodAnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/MoodAnalyzerTest.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> UC3_Inform_User
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MoodAnalyzerTest.givenMessage_WhenNull_ShouldReturnHappy">
+  <component name="RunManager" selected="Gradle.MoodAnalyzerTest.givenMessageEmpty_ShouldThrowException">
     <configuration name="MoodAnalyzerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -90,12 +94,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyzerTest.givenMessageToConstructor_WhenHappy_ShouldReturnHappy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyzerTest.givenMessageEmpty_ShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.MoodAnalyzerTest.givenMessageToConstructor_WhenHappy_ShouldReturnHappy&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.MoodAnalyzerTest.givenMessageEmpty_ShouldThrowException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -110,12 +114,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyzerTest.givenMessageToConstructor_WhenSad_ShouldReturnSad" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyzerTest.givenMessageNull_ShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.MoodAnalyzerTest.givenMessageToConstructor_WhenSad_ShouldReturnSad&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.MoodAnalyzerTest.givenMessageNull_ShouldThrowException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -172,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MoodAnalyzerTest.givenMessageEmpty_ShouldThrowException" />
+        <item itemvalue="Gradle.MoodAnalyzerTest.givenMessageNull_ShouldThrowException" />
         <item itemvalue="Gradle.MoodAnalyzerTest.givenMessage_WhenNull_ShouldReturnHappy" />
         <item itemvalue="Gradle.MoodAnalyzerTest.givenMessage_WhenSad_ShouldReturnSad" />
         <item itemvalue="Gradle.MoodAnalyzerTest" />
-        <item itemvalue="Gradle.MoodAnalyzerTest.givenMessageToConstructor_WhenHappy_ShouldReturnHappy" />
-        <item itemvalue="Gradle.MoodAnalyzerTest.givenMessageToConstructor_WhenSad_ShouldReturnSad" />
       </list>
     </recent_temporary>
   </component>
