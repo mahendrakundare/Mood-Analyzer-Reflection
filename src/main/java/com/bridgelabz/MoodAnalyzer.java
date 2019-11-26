@@ -4,13 +4,13 @@ public class MoodAnalyzer {
 
     private String message;
 
-    public MoodAnalyzer() {
-
-    }
-
-    public MoodAnalyzer(String message) {
-        this.message = message;
-    }
+//    public MoodAnalyzer() {
+//
+//    }
+//
+//    public MoodAnalyzer(String message) {
+//        this.message = message;
+//    }
 
     public String analyzeMood() throws MoodAnalysisException {
         try {
@@ -24,6 +24,13 @@ public class MoodAnalyzer {
             throw new MoodAnalysisException("Please enter proper mood", MoodAnalysisException.ExceptionType.ENTERED_NULL);
         }
     }
+//    @Override
+//    public boolean equals(Object another) {
+//        if (another instanceof MoodAnalyzer)
+//            return true;
+//        else
+//            return false;
+//    }
 
     @Override
     public boolean equals(Object another) {
