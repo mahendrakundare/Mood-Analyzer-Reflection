@@ -78,7 +78,7 @@ public class MoodAnalyzerTest {
     public void givenClass_WhenConstructorNotProper_ShouldThrowNoSuchMethodException() {
         MoodAnalyzer analyzer = null;
         try {
-            analyzer = MoodAnalyserFactory.creatMoodAnalyser("I am in happy mood");
+            analyzer = MoodAnalyserFactory.creatMoodAnalyser();
         } catch (MoodAnalysisException e) {
             Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_METHOD, e.type);
         }

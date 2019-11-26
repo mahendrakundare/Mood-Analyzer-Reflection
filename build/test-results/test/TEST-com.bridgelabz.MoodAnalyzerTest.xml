@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MoodAnalyzerTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-11-26T10:12:17" hostname="admin1-LIVA-Z2V" time="22.324">
+<testsuite name="com.bridgelabz.MoodAnalyzerTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-11-26T10:56:40" hostname="admin1-LIVA-Z2V" time="22.426">
   <properties/>
-  <testcase name="givenClass_WhenConstructorNotProper_ShouldThrowNoSuchMethodException" classname="com.bridgelabz.MoodAnalyzerTest" time="22.324">
+  <testcase name="givenClass_WhenConstructorNotProper_ShouldThrowNoSuchMethodException" classname="com.bridgelabz.MoodAnalyzerTest" time="22.426">
     <skipped/>
   </testcase>
   <system-out><![CDATA[]]></system-out>
