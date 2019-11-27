@@ -24,13 +24,7 @@ public class MoodAnalyzer {
             throw new MoodAnalysisException("Please enter proper mood", MoodAnalysisException.ExceptionType.ENTERED_NULL);
         }
     }
-//    @Override
-//    public boolean equals(Object another) {
-//        if (another instanceof MoodAnalyzer)
-//            return true;
-//        else
-//            return false;
-//    }
+
 
     @Override
     public boolean equals(Object another) {
